@@ -1,0 +1,9 @@
+$color-base: #00aec6;
+$color-background: lighten($color-base , 40);
+$color-dard: darken($color-base , 20);
+$color-accent: saturate($color-base , 20);
+$color-highlight: lighten(saturate($color-base , 40), 20);
+
+call
+
+background-color: $color-base; .....
